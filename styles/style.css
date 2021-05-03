@@ -15,7 +15,7 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  position: relative;
+  position: fixed;
 }
 
 body::before {
