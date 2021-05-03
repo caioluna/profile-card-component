@@ -15,13 +15,13 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  position: fixed;
+  position: relative;
 }
 
 body::before {
   display: block;
   content: url(../images/bg-pattern-top.svg);
-  position: absolute;
+  position: fixed;
   top: -550px;
   left: -770px;
   z-index: -1;
@@ -30,7 +30,7 @@ body::before {
 body::after {
   display: block;
   content: url(../images/bg-pattern-bottom.svg);
-  position: absolute;
+  position: fixed;
   bottom: -525px;
   right: -770px;
   z-index: -1;
